@@ -1,4 +1,4 @@
 
-# tkhkaeio.io
+# hakada.io
 
-My personal website
+The personal website for Hiroyasu Akada
