@@ -1,0 +1,8 @@
+@InProceedings{Akada_2022_WACV,
+author    = {Akada, Hiroyasu and Bhat, Shariq Farooq and Alhashim, Ibraheem and Wonka, Peter},
+title     = {Self-Supervised Learning of Domain Invariant Features for Depth Estimation},
+booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+month     = {January},
+year      = {2022},
+pages     = {3377-3387}
+}
