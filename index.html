@@ -150,9 +150,15 @@
                   <heading>Research</heading>
                   <p>
                     My research focus lies at the intersection of Computer Vision and Deep Learning.
-                    In particular, I am interested in Egocentric 3D Human Pose Estimation, 3D Object Reconstruction, and
-                    Synthetic-to-Real Domain Adaptation.
-                    <!-- <a href="publications.html" target="_blank">Full list of my publications</a> is available. -->
+                    In particular, I am interested in the following topics:
+
+                  <ul>
+                    <li>Egocentric 3D Vision</li>
+                    <li>Human Pose Estimation</li>
+                    <li>Unsupervised Learning (Self-Supervised Learning)</li>
+                    <li>Synthetic-to-Real Domain Adaptation</li>
+                  </ul>
+                  <!-- <a href="publications.html" target="_blank">Full list of my publications</a> is available. -->
                   </p>
                 </td>
               </tr>
@@ -163,194 +169,217 @@
 
 
 
-            <tbody>
+            <table
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+              <tbody>
+                <tr>
+                  <td style="padding:20px;width:100%;vertical-align:middle">
+                    <heading>Publications</heading>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table
+              style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+
+
+              <tbody>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src="./images/coming_soon.jpg" width="180">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="">
+                    <h3 class="papertitle">
+                      <strong>Bring Your Rear Cameras for Egocentric 3D Human Pose Estimation</strong>
+                    </h3>
+                  </a>
+                  <b>Hiroyasu Akada</b>, Jian Wang, Vladislav Golyanik, and Christian Theobalt
+                  <br>
+                  <em>Under Review</em>, 2025
+                  <br>
+                  <a href="">[Project page (coming soon)]</a>
+                  <p>
+                    (Details coming soon for "<strong>Bring Your Rear Cameras for Egocentric 3D Human Pose
+                      Estimation</strong>")
+                  </p>
+                </td>
+              </tbody>
+
+
+              <tbody>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src="projects/cvpr2024_eventego3d/eventego3d.png" width="180">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://eventego3d.mpi-inf.mpg.de">
+                    <h3 class="papertitle">
+                      <strong>EventEgo3D++: 3D Human Motion Capture from a Head Mounted Event Camera</strong>
+                    </h3>
+                  </a>
+                  Christen Millerdurai, <b>Hiroyasu Akada</b>, Jian Wang, Diogo Luvizon, Christian Theobalt, Vladislav
+                  Golyanik
+                  <br>
+                  <em>Under Review</em>, 2025
+                  <br>
+                  <a href="https://eventego3d.mpi-inf.mpg.de">[Project page]</a>
+                  <a href="https://arxiv.org/abs/2502.07869">[Paper]</a>
+                  <a href="https://github.com/Chris10M/EventEgo3D_plus_plus">[Code (coming soon)]</a>
+                  <p>
+                    This paper is an extension of our previous work "EventEgo3D (CVPR 2024)" (See below).
+                    We tackle a new problem, i.e. 3D human motion capture from an egocentric monocular event camera with
+                    a
+                    fisheye lens.
+                    "EventEgo3D (CVPR 2024)" proposed the EE3D framework that is specifically tailored for learning with
+                    event streams in the LNES
+                    representation, enabling high 3D reconstruction accuracy.
+                    We upgrade this framework to a new EE3D++ framework for further performance improvement.
+                    We also introduce a new dataset, EE3D-W, in addition to EE3D-S and EE3D-R from "EventEgo3D (CVPR
+                    2024)".
+                  </p>
+                </td>
+              </tbody>
+
+
+              <tbody>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src="projects/cvpr2024_unrealego2/overview_dataset.png" width="180">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo2/">
+                    <h3 class="papertitle">
+                      <strong>3D Human Pose Perception from Egocentric Stereo Videos</strong>
+                    </h3>
+                  </a>
+                  <b>Hiroyasu Akada</b>, Jian Wang, Vladislav Golyanik, and Christian Theobalt
+                  <br>
+                  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2024, <b style="color:red">Highlight (top
+                    3.5%)
+                  </b>
+                  <br>
+                  <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo2/">[Project page]</a>
+                  <a href="https://unrealego.mpi-inf.mpg.de/">[Benchmark Challenge]</a>
+                  <a href="https://arxiv.org/abs/2401.00889">[Paper]</a>
+                  <a
+                    href="https://github.com/hiroyasuakada/3D-Human-Pose-Perception-from-Egocentric-Stereo-Videos">[Code]</a>
+                  <p>
+                    In this work, we propose a new transformer-based framework to improve egocentric stereo 3D human
+                    pose
+                    estimation, which leverages the scene information and temporal context of egocentric stereo videos.
+                    Furthermore, we introduce two new benchmark datasets, i.e., UnrealEgo2 and UnrealEgo-RW (RealWorld).
+                    Our extensive experiments show that the proposed approach significantly outperforms previous
+                    methods.
+                  </p>
+                </td>
+              </tbody>
+
+
+              <tbody>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src="projects/cvpr2024_eventego3d/eventego3d.png" width="180">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href=>
+                    <h3 class="papertitle">
+                      <strong>EventEgo3D: 3D Human Motion Capture from Egocentric Event Streams</strong>
+                    </h3>
+                  </a>
+                  Christen Millerdurai, <b>Hiroyasu Akada</b>, Jian Wang, Diogo Luvizon, Christian Theobalt, Vladislav
+                  Golyanik
+                  <br>
+                  <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2024
+                  <br>
+                  <a href="https://4dqv.mpi-inf.mpg.de/EventEgo3D/">[Project page]</a>
+                  <a href="https://arxiv.org/abs/2404.08640">[Paper]</a>
+                  <a href="https://github.com/Chris10M/EventEgo3D">[Code]</a>
+                  <p>
+                    We tackle a new problem, i.e. 3D human motion capture from an egocentric monocular event camera with
+                    a
+                    fisheye lens.
+                    Event streams have high temporal resolution and could provide reliable cues for 3D human motion
+                    capture under high-speed human motions and rapidly changing illumination.
+                    We leverage these characteristics and propose the first approach for event-based 3D human pose
+                    estimation, EventEgo3D (EE3D).
+                    The proposed EE3D framework is specifically tailored for learning with event streams in the LNES
+                    representation, enabling high 3D reconstruction accuracy.
+                    We also provide two new datasets, EE3D-S and EE3D-R.
+                  </p>
+                </td>
+              </tbody>
+
+
+              <tbody>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <div class="one">
+                    <img src="projects/eccv2022_unrealego/overview_of_setting_2-compressed-modified.png" width="180">
+                  </div>
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                  <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">
+                    <h3 class="papertitle">
+                      <strong>UnrealEgo: A New Dataset for Robust Egocentric 3D Human Motion Capture</strong>
+                    </h3>
+                  </a>
+                  <b>Hiroyasu Akada</b>, Jian Wang, Soshi Shimada, Masaki Takahashi, Christian Theobalt, and Vladislav
+                  Golyanik
+                  <br>
+                  <em>European Conference on Computer Vision (ECCV)</em>, 2022
+                  <br>
+                  <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">[Project page]</a>
+                  <a href="https://arxiv.org/abs/2208.01633">[Paper]</a>
+                  <a href="https://github.com/hiroyasuakada/UnrealEgo">[Code]</a>
+                  <p>
+                    We present UnrealEgo, <i>i.e.</i> a new large-scale naturalistic dataset for egocentric 3D human
+                    pose
+                    estimation.
+                    UnrealEgo is based on an advanced concept of eyeglasses equipped with two fisheye cameras that can
+                    be
+                    used in unconstrained environments.
+                    UnrealEgo is the first dataset to provide in-the-wild stereo images with the largest variety of
+                    motions among existing egocentric datasets.
+                    We also propose a new benchmark method that achieves the state-of-the-art results on UnrealEgo.
+                  </p>
+                </td>
+              </tbody>
+
+
+
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <img src="./images/coming_soon.jpg" width="180">
+                  <img src="projects/wacv2022_SSRL/overview.png" width="180">
                 </div>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="">
-                  <h3 class="papertitle">
-                    <strong>Bring Your Rear Cameras for Egocentric 3D Human Pose Estimation</strong>
-                  </h3>
-                </a>
-                <b>Hiroyasu Akada</b>, Jian Wang, Vladislav Golyanik, and Christian Theobalt
-                <br>
-                <em>Under Review</em>, 2025
-                <br>
-                <a href="">[Project page (coming soon)]</a>
-                <p>
-                  (Details coming soon for "<strong>Bring Your Rear Cameras for Egocentric 3D Human Pose
-                    Estimation</strong>")
-                </p>
-              </td>
-            </tbody>
-
-
-            <tbody>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src="projects/cvpr2024_eventego3d/eventego3d.png" width="180">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://eventego3d.mpi-inf.mpg.de">
-                  <h3 class="papertitle">
-                    <strong>EventEgo3D++: 3D Human Motion Capture from a Head Mounted Event Camera</strong>
-                  </h3>
-                </a>
-                Christen Millerdurai, <b>Hiroyasu Akada</b>, Jian Wang, Diogo Luvizon, Christian Theobalt, Vladislav
-                Golyanik
-                <br>
-                <em>Under Review</em>, 2025
-                <br>
-                <a href="https://eventego3d.mpi-inf.mpg.de">[Project page]</a>
-                <a href="https://arxiv.org/abs/2502.07869">[Paper]</a>
-                <a href="https://github.com/Chris10M/EventEgo3D_plus_plus">[Code (coming soon)]</a>
-                <p>
-                  This paper is an extension of our previous work "EventEgo3D (CVPR 2024)" (See below).
-                  We tackle a new problem, i.e. 3D human motion capture from an egocentric monocular event camera with a
-                  fisheye lens.
-                  "EventEgo3D (CVPR 2024)" proposed the EE3D framework that is specifically tailored for learning with
-                  event streams in the LNES
-                  representation, enabling high 3D reconstruction accuracy.
-                  We upgrade this framework to a new EE3D++ framework for further performance improvement.
-                  We also introduce a new dataset, EE3D-W, in addition to EE3D-S and EE3D-R from "EventEgo3D (CVPR
-                  2024)".
-                </p>
-              </td>
-            </tbody>
-
-
-            <tbody>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src="projects/cvpr2024_unrealego2/overview_dataset.png" width="180">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo2/">
-                  <h3 class="papertitle">
-                    <strong>3D Human Pose Perception from Egocentric Stereo Videos</strong>
-                  </h3>
-                </a>
-                <b>Hiroyasu Akada</b>, Jian Wang, Vladislav Golyanik, and Christian Theobalt
-                <br>
-                <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2024, <b style="color:red">Highlight (top 3.5%)
-                </b>
-                <br>
-                <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo2/">[Project page]</a>
-                <a href="https://unrealego.mpi-inf.mpg.de/">[Benchmark Challenge]</a>
-                <a href="https://arxiv.org/abs/2401.00889">[Paper]</a>
                 <a
-                  href="https://github.com/hiroyasuakada/3D-Human-Pose-Perception-from-Egocentric-Stereo-Videos">[Code]</a>
-                <p>
-                  In this work, we propose a new transformer-based framework to improve egocentric stereo 3D human pose
-                  estimation, which leverages the scene information and temporal context of egocentric stereo videos.
-                  Furthermore, we introduce two new benchmark datasets, i.e., UnrealEgo2 and UnrealEgo-RW (RealWorld).
-                  Our extensive experiments show that the proposed approach significantly outperforms previous methods.
-                </p>
-              </td>
-            </tbody>
-
-
-            <tbody>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src="projects/cvpr2024_eventego3d/eventego3d.png" width="180">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href=>
+                  href="https://openaccess.thecvf.com/content/WACV2022/html/Akada_Self-Supervised_Learning_of_Domain_Invariant_Features_for_Depth_Estimation_WACV_2022_paper.html">
                   <h3 class="papertitle">
-                    <strong>EventEgo3D: 3D Human Motion Capture from Egocentric Event Streams</strong>
+                    <strong>Self-Supervised Learning of Domain Invariant Features for Depth Estimation</strong>
                   </h3>
                 </a>
-                Christen Millerdurai, <b>Hiroyasu Akada</b>, Jian Wang, Diogo Luvizon, Christian Theobalt, Vladislav
-                Golyanik
-                <br>
-                <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2024
-                <br>
-                <a href="https://4dqv.mpi-inf.mpg.de/EventEgo3D/">[Project page]</a>
-                <a href="https://arxiv.org/abs/2404.08640">[Paper]</a>
-                <a href="https://github.com/Chris10M/EventEgo3D">[Code]</a>
+                <b>Hiroyasu Akada</b>, Shariq Farooq Bhat, Ibraheem Alhashim, Peter Wonka<br>
+                <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em>, 2022<br>
+                <a
+                  href="https://openaccess.thecvf.com/content/WACV2022/html/Akada_Self-Supervised_Learning_of_Domain_Invariant_Features_for_Depth_Estimation_WACV_2022_paper.html">[Paper]</a>
+                <a
+                  href="https://github.com/hiroyasuakada/Self-Supervised-Learning-of-Domain-Invariant-Features-for-Depth-Estimation">[Code]</a>
                 <p>
-                  We tackle a new problem, i.e. 3D human motion capture from an egocentric monocular event camera with a
-                  fisheye lens.
-                  Event streams have high temporal resolution and could provide reliable cues for 3D human motion
-                  capture under high-speed human motions and rapidly changing illumination.
-                  We leverage these characteristics and propose the first approach for event-based 3D human pose
-                  estimation, EventEgo3D (EE3D).
-                  The proposed EE3D framework is specifically tailored for learning with event streams in the LNES
-                  representation, enabling high 3D reconstruction accuracy.
-                  We also provide two new datasets, EE3D-S and EE3D-R.
-                </p>
-              </td>
-            </tbody>
-
-
-            <tbody>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src="projects/eccv2022_unrealego/overview_of_setting_2-compressed-modified.png" width="180">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">
-                  <h3 class="papertitle">
-                    <strong>UnrealEgo: A New Dataset for Robust Egocentric 3D Human Motion Capture</strong>
-                  </h3>
-                </a>
-                <b>Hiroyasu Akada</b>, Jian Wang, Soshi Shimada, Masaki Takahashi, Christian Theobalt, and Vladislav
-                Golyanik
-                <br>
-                <em>European Conference on Computer Vision (ECCV)</em>, 2022
-                <br>
-                <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">[Project page]</a>
-                <a href="https://arxiv.org/abs/2208.01633">[Paper]</a>
-                <a href="https://github.com/hiroyasuakada/UnrealEgo">[Code]</a>
-                <p>
-                  We present UnrealEgo, <i>i.e.</i> a new large-scale naturalistic dataset for egocentric 3D human pose
+                  We tackle the problem of unsupervised synthetic-to-real domain adaptation for single image depth
                   estimation.
-                  UnrealEgo is based on an advanced concept of eyeglasses equipped with two fisheye cameras that can be
-                  used in unconstrained environments.
-                  UnrealEgo is the first dataset to provide in-the-wild stereo images with the largest variety of
-                  motions among existing egocentric datasets.
-                  We also propose a new benchmark method that achieves the state-of-the-art results on UnrealEgo.
+                  An essential building block of single image depth estimation is an encoder-decoder task network that
+                  takes RGB images as input and produces depth maps as output.
+                  In this paper, we propose a novel training strategy to force the task network to learn domain
+                  invariant
+                  representations in a self-supervised manner.
                 </p>
               </td>
-            </tbody>
-
-
-
-            <td style="padding:20px;width:25%;vertical-align:middle">
-              <div class="one">
-                <img src="projects/wacv2022_SSRL/overview.png" width="180">
-              </div>
-            </td>
-            <td style="padding:20px;width:75%;vertical-align:middle">
-              <a
-                href="https://openaccess.thecvf.com/content/WACV2022/html/Akada_Self-Supervised_Learning_of_Domain_Invariant_Features_for_Depth_Estimation_WACV_2022_paper.html">
-                <h3 class="papertitle">
-                  <strong>Self-Supervised Learning of Domain Invariant Features for Depth Estimation</strong>
-                </h3>
-              </a>
-              <b>Hiroyasu Akada</b>, Shariq Farooq Bhat, Ibraheem Alhashim, Peter Wonka<br>
-              <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em>, 2022<br>
-              <a
-                href="https://openaccess.thecvf.com/content/WACV2022/html/Akada_Self-Supervised_Learning_of_Domain_Invariant_Features_for_Depth_Estimation_WACV_2022_paper.html">[Paper]</a>
-              <a
-                href="https://github.com/hiroyasuakada/Self-Supervised-Learning-of-Domain-Invariant-Features-for-Depth-Estimation">[Code]</a>
-              <p>
-                We tackle the problem of unsupervised synthetic-to-real domain adaptation for single image depth
-                estimation.
-                An essential building block of single image depth estimation is an encoder-decoder task network that
-                takes RGB images as input and produces depth maps as output.
-                In this paper, we propose a novel training strategy to force the task network to learn domain invariant
-                representations in a self-supervised manner.
-              </p>
-            </td>
     </tbody>
 
 
