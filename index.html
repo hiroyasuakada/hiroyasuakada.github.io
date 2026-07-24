@@ -266,13 +266,14 @@
       <tbody>
         <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Publications</heading>
+            <heading>Selected Publications</heading>
           </td>
         </tr>
       </tbody>
     </table>
     <table
       style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
 
       <tbody>
         <td style="padding:20px;width:25%;vertical-align:middle">
@@ -316,115 +317,6 @@
       <tbody>
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <img src="./projects/cvpr2026_e3dpsm/overview.png" width="180">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://4dqv.mpi-inf.mpg.de/E-3DPSM/">
-            <h3 class="papertitle">
-              <strong>E-3DPSM: A State Machine for Event-based Egocentric3D Human Pose Estimation</strong>
-            </h3>
-          </a>
-          Mayur Deshmukh, <b>Hiroyasu Akada</b>, Helge Rhodin, Christian Theobalt, and Vladislav Golyanik
-          <br>
-          <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026
-          <br>
-          <a href="https://4dqv.mpi-inf.mpg.de/E-3DPSM/">[Project page]</a>
-          <a href="https://arxiv.org/abs/2604.08543">[Paper]</a>
-          <a href="https://github.com/MayurDeshmukh10/E-3DPSM">[Code]</a>
-          <p>
-            Event cameras offer multiple advantages in monocular egocentric 3D human pose estimation from head-mounted
-            devices,
-            such as millisecond temporal resolution, high dynamic range, and negligible motion blur.
-            This paper rethinks the setting and introduces E-3DPSM, an event-driven continuous pose state machine for
-            event-based egocentric 3D human pose estimation.
-            E-3DPSM aligns continuous human motion with fine-grained event dynamics; it evolves latent states and
-            predicts continuous changes in 3D joint positions associated with observed events, which are fused with
-            direct 3D human pose predictions, leading to stable and
-            drift-free final 3D pose reconstructions. E-3DPSM runs in real-time at 80 Hz on a single workstation and
-            sets a new state of the art in experiments on two benchmarks, improving accuracy by up to 19% (MPJPE) and
-            temporal stability by up to 2.7x.
-          </p>
-        </td>
-      </tbody>
-
-      <tbody>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <img src="./projects/iccv2025_egorear/overview.png" width="180">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://4dqv.mpi-inf.mpg.de/EgoRear/">
-            <h3 class="papertitle">
-              <strong>Bring Your Rear Cameras for Egocentric 3D Human Pose Estimation</strong>
-            </h3>
-          </a>
-          <b>Hiroyasu Akada</b>, Jian Wang, Vladislav Golyanik, and Christian Theobalt
-          <br>
-          <em>International Conference on Computer Vision (ICCV)</em>, 2025
-          <br>
-          <a href="https://4dqv.mpi-inf.mpg.de/EgoRear/">[Project page]</a>
-          <a href="https://arxiv.org/abs/2503.11652">[Paper]</a>
-          <a href="https://github.com/hiroyasuakada/EgoRear">[Code]</a>
-          <p>
-            Egocentric 3D full-body tracking has been studied using cameras installed in front of a head-mounted
-            device (HMD).
-            While frontal placement is the optimal and the only option for some tasks, such as hand tracking, it
-            remains unclear if the same holds for full-body tracking.
-            Notably, even the state-of-the-art methods often fail to estimate accurate 3D poses in many
-            scenarios, such as when HMD users tilt their heads upward---a common motion in human activities.
-            Hence, this paper investigates the usefulness of rear cameras in the HMD design for full-body
-            tracking.
-            We show that simply adding rear views to the frontal inputs is not optimal for existing methods and
-            propose a new method that refines 2D joint heatmap estimation, thereby significantly improving 3D
-            pose tracking (>10% on MPJPE).
-            Furthermore, we introduce two new large-scale datasets, Ego4View-Syn and Ego4View-RW, for a
-            rear-view evaluation.
-          </p>
-        </td>
-      </tbody>
-
-
-      <tbody>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <img src="projects/cvpr2024_eventego3d/eventego3d.png" width="180">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://eventego3d.mpi-inf.mpg.de">
-            <h3 class="papertitle">
-              <strong>EventEgo3D++: 3D Human Motion Capture from a Head Mounted Event Camera</strong>
-            </h3>
-          </a>
-          Christen Millerdurai, <b>Hiroyasu Akada</b>, Jian Wang, Diogo Luvizon, Christian Theobalt, Vladislav
-          Golyanik
-          <br>
-          <em>International Journal of Computer Vision (IJCV)</em>, 2025
-          <br>
-          <a href="https://eventego3d.mpi-inf.mpg.de">[Project page]</a>
-          <a href="https://arxiv.org/abs/2502.07869">[Paper]</a>
-          <a href="https://github.com/Chris10M/EventEgo3D_plus_plus">[Code]</a>
-          <p>
-            This paper is an extension of our previous work "EventEgo3D (CVPR 2024)" (See below).
-            We tackle a new problem, i.e. 3D human motion capture from an egocentric monocular event camera with
-            a
-            fisheye lens.
-            "EventEgo3D (CVPR 2024)" proposed the EE3D framework that is specifically tailored for learning with
-            event streams in the LNES
-            representation, enabling high 3D reconstruction accuracy.
-            We upgrade this framework to a new EE3D++ framework for further performance improvement.
-            We also introduce a new dataset, EE3D-W, in addition to EE3D-S and EE3D-R from "EventEgo3D (CVPR
-            2024)".
-          </p>
-        </td>
-      </tbody>
-
-
-      <tbody>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
             <img src="projects/cvpr2024_unrealego2/overview_dataset.png" width="180">
           </div>
         </td>
@@ -455,129 +347,250 @@
         </td>
       </tbody>
 
+      <table
+        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Publications</heading>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table
+        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-      <tbody>
+
+        <tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src="./projects/cvpr2026_e3dpsm/overview.png" width="180">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://4dqv.mpi-inf.mpg.de/E-3DPSM/">
+              <h3 class="papertitle">
+                <strong>E-3DPSM: A State Machine for Event-based Egocentric3D Human Pose Estimation</strong>
+              </h3>
+            </a>
+            Mayur Deshmukh, <b>Hiroyasu Akada</b>, Helge Rhodin, Christian Theobalt, and Vladislav Golyanik
+            <br>
+            <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2026
+            <br>
+            <a href="https://4dqv.mpi-inf.mpg.de/E-3DPSM/">[Project page]</a>
+            <a href="https://arxiv.org/abs/2604.08543">[Paper]</a>
+            <a href="https://github.com/MayurDeshmukh10/E-3DPSM">[Code]</a>
+            <p>
+              Event cameras offer multiple advantages in monocular egocentric 3D human pose estimation from head-mounted
+              devices,
+              such as millisecond temporal resolution, high dynamic range, and negligible motion blur.
+              This paper rethinks the setting and introduces E-3DPSM, an event-driven continuous pose state machine for
+              event-based egocentric 3D human pose estimation.
+              E-3DPSM aligns continuous human motion with fine-grained event dynamics; it evolves latent states and
+              predicts continuous changes in 3D joint positions associated with observed events, which are fused with
+              direct 3D human pose predictions, leading to stable and
+              drift-free final 3D pose reconstructions. E-3DPSM runs in real-time at 80 Hz on a single workstation and
+              sets a new state of the art in experiments on two benchmarks, improving accuracy by up to 19% (MPJPE) and
+              temporal stability by up to 2.7x.
+            </p>
+          </td>
+        </tbody>
+
+        <tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src="./projects/iccv2025_egorear/overview.png" width="180">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://4dqv.mpi-inf.mpg.de/EgoRear/">
+              <h3 class="papertitle">
+                <strong>Bring Your Rear Cameras for Egocentric 3D Human Pose Estimation</strong>
+              </h3>
+            </a>
+            <b>Hiroyasu Akada</b>, Jian Wang, Vladislav Golyanik, and Christian Theobalt
+            <br>
+            <em>International Conference on Computer Vision (ICCV)</em>, 2025
+            <br>
+            <a href="https://4dqv.mpi-inf.mpg.de/EgoRear/">[Project page]</a>
+            <a href="https://arxiv.org/abs/2503.11652">[Paper]</a>
+            <a href="https://github.com/hiroyasuakada/EgoRear">[Code]</a>
+            <p>
+              Egocentric 3D full-body tracking has been studied using cameras installed in front of a head-mounted
+              device (HMD).
+              While frontal placement is the optimal and the only option for some tasks, such as hand tracking, it
+              remains unclear if the same holds for full-body tracking.
+              Notably, even the state-of-the-art methods often fail to estimate accurate 3D poses in many
+              scenarios, such as when HMD users tilt their heads upward---a common motion in human activities.
+              Hence, this paper investigates the usefulness of rear cameras in the HMD design for full-body
+              tracking.
+              We show that simply adding rear views to the frontal inputs is not optimal for existing methods and
+              propose a new method that refines 2D joint heatmap estimation, thereby significantly improving 3D
+              pose tracking (>10% on MPJPE).
+              Furthermore, we introduce two new large-scale datasets, Ego4View-Syn and Ego4View-RW, for a
+              rear-view evaluation.
+            </p>
+          </td>
+        </tbody>
+
+
+        <tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src="projects/cvpr2024_eventego3d/eventego3d.png" width="180">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://eventego3d.mpi-inf.mpg.de">
+              <h3 class="papertitle">
+                <strong>EventEgo3D++: 3D Human Motion Capture from a Head Mounted Event Camera</strong>
+              </h3>
+            </a>
+            Christen Millerdurai, <b>Hiroyasu Akada</b>, Jian Wang, Diogo Luvizon, Christian Theobalt, Vladislav
+            Golyanik
+            <br>
+            <em>International Journal of Computer Vision (IJCV)</em>, 2025
+            <br>
+            <a href="https://eventego3d.mpi-inf.mpg.de">[Project page]</a>
+            <a href="https://arxiv.org/abs/2502.07869">[Paper]</a>
+            <a href="https://github.com/Chris10M/EventEgo3D_plus_plus">[Code]</a>
+            <p>
+              This paper is an extension of our previous work "EventEgo3D (CVPR 2024)" (See below).
+              We tackle a new problem, i.e. 3D human motion capture from an egocentric monocular event camera with
+              a
+              fisheye lens.
+              "EventEgo3D (CVPR 2024)" proposed the EE3D framework that is specifically tailored for learning with
+              event streams in the LNES
+              representation, enabling high 3D reconstruction accuracy.
+              We upgrade this framework to a new EE3D++ framework for further performance improvement.
+              We also introduce a new dataset, EE3D-W, in addition to EE3D-S and EE3D-R from "EventEgo3D (CVPR
+              2024)".
+            </p>
+          </td>
+        </tbody>
+
+        <tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src="projects/cvpr2024_eventego3d/eventego3d.png" width="180">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href=>
+              <h3 class="papertitle">
+                <strong>EventEgo3D: 3D Human Motion Capture from Egocentric Event Streams</strong>
+              </h3>
+            </a>
+            Christen Millerdurai, <b>Hiroyasu Akada</b>, Jian Wang, Diogo Luvizon, Christian Theobalt, Vladislav
+            Golyanik
+            <br>
+            <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2024
+            <br>
+            <a href="https://4dqv.mpi-inf.mpg.de/EventEgo3D/">[Project page]</a>
+            <a href="https://arxiv.org/abs/2404.08640">[Paper]</a>
+            <a href="https://github.com/Chris10M/EventEgo3D">[Code]</a>
+            <p>
+              We tackle a new problem, i.e. 3D human motion capture from an egocentric monocular event camera with
+              a
+              fisheye lens.
+              Event streams have high temporal resolution and could provide reliable cues for 3D human motion
+              capture under high-speed human motions and rapidly changing illumination.
+              We leverage these characteristics and propose the first approach for event-based 3D human pose
+              estimation, EventEgo3D (EE3D).
+              The proposed EE3D framework is specifically tailored for learning with event streams in the LNES
+              representation, enabling high 3D reconstruction accuracy.
+              We also provide two new datasets, EE3D-S and EE3D-R.
+            </p>
+          </td>
+        </tbody>
+
+
+        <tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src="projects/eccv2022_unrealego/overview_of_setting_2-compressed-modified.png" width="180">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">
+              <h3 class="papertitle">
+                <strong>UnrealEgo: A New Dataset for Robust Egocentric 3D Human Motion Capture</strong>
+              </h3>
+            </a>
+            <b>Hiroyasu Akada</b>, Jian Wang, Soshi Shimada, Masaki Takahashi, Christian Theobalt, and Vladislav
+            Golyanik
+            <br>
+            <em>European Conference on Computer Vision (ECCV)</em>, 2022
+            <br>
+            <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">[Project page]</a>
+            <a href="https://arxiv.org/abs/2208.01633">[Paper]</a>
+            <a href="https://github.com/hiroyasuakada/UnrealEgo">[Code]</a>
+            <p>
+              We present UnrealEgo, <i>i.e.</i> a new large-scale naturalistic dataset for egocentric 3D human
+              pose
+              estimation.
+              UnrealEgo is based on an advanced concept of eyeglasses equipped with two fisheye cameras that can
+              be
+              used in unconstrained environments.
+              UnrealEgo is the first dataset to provide in-the-wild stereo images with the largest variety of
+              motions among existing egocentric datasets.
+              We also propose a new benchmark method that achieves the state-of-the-art results on UnrealEgo.
+            </p>
+          </td>
+        </tbody>
+
+
+
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
-            <img src="projects/cvpr2024_eventego3d/eventego3d.png" width="180">
+            <img src="projects/wacv2022_SSRL/overview.png" width="180">
           </div>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href=>
+          <a
+            href="https://openaccess.thecvf.com/content/WACV2022/html/Akada_Self-Supervised_Learning_of_Domain_Invariant_Features_for_Depth_Estimation_WACV_2022_paper.html">
             <h3 class="papertitle">
-              <strong>EventEgo3D: 3D Human Motion Capture from Egocentric Event Streams</strong>
+              <strong>Self-Supervised Learning of Domain Invariant Features for Depth Estimation</strong>
             </h3>
           </a>
-          Christen Millerdurai, <b>Hiroyasu Akada</b>, Jian Wang, Diogo Luvizon, Christian Theobalt, Vladislav
-          Golyanik
-          <br>
-          <em>Computer Vision and Pattern Recognition (CVPR)</em>, 2024
-          <br>
-          <a href="https://4dqv.mpi-inf.mpg.de/EventEgo3D/">[Project page]</a>
-          <a href="https://arxiv.org/abs/2404.08640">[Paper]</a>
-          <a href="https://github.com/Chris10M/EventEgo3D">[Code]</a>
+          <b>Hiroyasu Akada</b>, Shariq Farooq Bhat, Ibraheem Alhashim, Peter Wonka<br>
+          <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em>, 2022<br>
+          <a
+            href="https://openaccess.thecvf.com/content/WACV2022/html/Akada_Self-Supervised_Learning_of_Domain_Invariant_Features_for_Depth_Estimation_WACV_2022_paper.html">[Paper]</a>
+          <a
+            href="https://github.com/hiroyasuakada/Self-Supervised-Learning-of-Domain-Invariant-Features-for-Depth-Estimation">[Code]</a>
           <p>
-            We tackle a new problem, i.e. 3D human motion capture from an egocentric monocular event camera with
-            a
-            fisheye lens.
-            Event streams have high temporal resolution and could provide reliable cues for 3D human motion
-            capture under high-speed human motions and rapidly changing illumination.
-            We leverage these characteristics and propose the first approach for event-based 3D human pose
-            estimation, EventEgo3D (EE3D).
-            The proposed EE3D framework is specifically tailored for learning with event streams in the LNES
-            representation, enabling high 3D reconstruction accuracy.
-            We also provide two new datasets, EE3D-S and EE3D-R.
-          </p>
-        </td>
-      </tbody>
-
-
-      <tbody>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <img src="projects/eccv2022_unrealego/overview_of_setting_2-compressed-modified.png" width="180">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">
-            <h3 class="papertitle">
-              <strong>UnrealEgo: A New Dataset for Robust Egocentric 3D Human Motion Capture</strong>
-            </h3>
-          </a>
-          <b>Hiroyasu Akada</b>, Jian Wang, Soshi Shimada, Masaki Takahashi, Christian Theobalt, and Vladislav
-          Golyanik
-          <br>
-          <em>European Conference on Computer Vision (ECCV)</em>, 2022
-          <br>
-          <a href="https://4dqv.mpi-inf.mpg.de/UnrealEgo/">[Project page]</a>
-          <a href="https://arxiv.org/abs/2208.01633">[Paper]</a>
-          <a href="https://github.com/hiroyasuakada/UnrealEgo">[Code]</a>
-          <p>
-            We present UnrealEgo, <i>i.e.</i> a new large-scale naturalistic dataset for egocentric 3D human
-            pose
+            We tackle the problem of unsupervised synthetic-to-real domain adaptation for single image depth
             estimation.
-            UnrealEgo is based on an advanced concept of eyeglasses equipped with two fisheye cameras that can
-            be
-            used in unconstrained environments.
-            UnrealEgo is the first dataset to provide in-the-wild stereo images with the largest variety of
-            motions among existing egocentric datasets.
-            We also propose a new benchmark method that achieves the state-of-the-art results on UnrealEgo.
+            An essential building block of single image depth estimation is an encoder-decoder task network that
+            takes RGB images as input and produces depth maps as output.
+            In this paper, we propose a novel training strategy to force the task network to learn domain
+            invariant
+            representations in a self-supervised manner.
           </p>
         </td>
-      </tbody>
+        </tbody>
 
 
 
-      <td style="padding:20px;width:25%;vertical-align:middle">
-        <div class="one">
-          <img src="projects/wacv2022_SSRL/overview.png" width="180">
-        </div>
-      </td>
-      <td style="padding:20px;width:75%;vertical-align:middle">
-        <a
-          href="https://openaccess.thecvf.com/content/WACV2022/html/Akada_Self-Supervised_Learning_of_Domain_Invariant_Features_for_Depth_Estimation_WACV_2022_paper.html">
-          <h3 class="papertitle">
-            <strong>Self-Supervised Learning of Domain Invariant Features for Depth Estimation</strong>
-          </h3>
-        </a>
-        <b>Hiroyasu Akada</b>, Shariq Farooq Bhat, Ibraheem Alhashim, Peter Wonka<br>
-        <em>IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)</em>, 2022<br>
-        <a
-          href="https://openaccess.thecvf.com/content/WACV2022/html/Akada_Self-Supervised_Learning_of_Domain_Invariant_Features_for_Depth_Estimation_WACV_2022_paper.html">[Paper]</a>
-        <a
-          href="https://github.com/hiroyasuakada/Self-Supervised-Learning-of-Domain-Invariant-Features-for-Depth-Estimation">[Code]</a>
-        <p>
-          We tackle the problem of unsupervised synthetic-to-real domain adaptation for single image depth
-          estimation.
-          An essential building block of single image depth estimation is an encoder-decoder task network that
-          takes RGB images as input and produces depth maps as output.
-          In this paper, we propose a novel training strategy to force the task network to learn domain
-          invariant
-          representations in a self-supervised manner.
-        </p>
-      </td>
-      </tbody>
-
-
-
-      <tbody>
-        <td style="padding:20px;width:25%;vertical-align:middle">
-          <div class="one">
-            <img src="projects/ias2021_unpaired/overview.png" width="180">
-          </div>
-        </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://link.springer.com/chapter/10.1007/978-3-030-95892-3_48">
-            <h3 class="papertitle">
-              <strong>Dynamic Object Removal from Unpaired Images for Agricultural Autonomous Robots</strong>
-            </h3>
-          </a>
-          <b>Hiroyasu Akada</b> and Masaki Takahashi
-          <br>
-          <em>International Conference on Intelligent Autonomous Systems (IAS)</em>, 2021
-          <br>
-          <a href="https://link.springer.com/chapter/10.1007/978-3-030-95892-3_48">[Paper]</a>
-          <!-- <label class="open" for="pop-up-1"><a>[BibTex]</a></label>
+        <tbody>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+              <img src="projects/ias2021_unpaired/overview.png" width="180">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-95892-3_48">
+              <h3 class="papertitle">
+                <strong>Dynamic Object Removal from Unpaired Images for Agricultural Autonomous Robots</strong>
+              </h3>
+            </a>
+            <b>Hiroyasu Akada</b> and Masaki Takahashi
+            <br>
+            <em>International Conference on Intelligent Autonomous Systems (IAS)</em>, 2021
+            <br>
+            <a href="https://link.springer.com/chapter/10.1007/978-3-030-95892-3_48">[Paper]</a>
+            <!-- <label class="open" for="pop-up-1"><a>[BibTex]</a></label>
                   <input type="checkbox" id="pop-up-1" style="display: none;">
                   <div class="overlay">
                     <div class="window">
@@ -589,159 +602,161 @@
                       </script>
                     </div>
                   </div> -->
-          <p>
-            We developed a GAN-based stem that remove dynamic objects in images. The system can be trained without using
-            paired images with/without the dynamic objects.
-          </p>
-        </td>
-      </tbody>
-    </table>
-
-    <table
-      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-      <tbody>
-        <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Education & Experience</heading>
             <p>
-              <b>[Sep 2025 - Feb 2026]</b> Internship, <a href="https://research.google/">Google</a> (Zurich,
-              Switzerland)<br>
-              <b>[Sep 2022 - Present]</b> Ph.D. student, <a
-                href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">Max Planck
-                Institute for Informatics</a> (Saarbrucken, Germany)<br>
-              <b>[July 2021 - Aug 2022]</b> Visiting researcher, <a
-                href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">Max Planck
-                Institute for Informatics</a> (Saarbrucken, Germany)<br>
-              <b>[Apr 2018 - Aug 2022]</b> Master student, <a href="https://www.st.keio.ac.jp/en/">Keio University</a>
-              (Kanagawa, Japan) <br>
-              <b>[Sep 2020 - June 2021]</b> Internship, <a href="https://www.kaust.edu.sa/en">KAUST</a> (Saudi
-              Arabia, remote) <br>
-              <b>[July 2019 - Aug 2019]</b> Internship, <a href="https://www.tencent.com/">Tencent </a> (Palo
-              Alto, CA, USA) <br>
-              <b>[Aug 2018 - May 2019]</b> Student, <a href="https://haas.berkeley.edu/">University of California,
-                Berkeley</a>
-              (Berkeley, CA, USA) <br>
-              <b>[Apr 2014 - Mar 2018]</b> Bachelor student, <a href="https://www.st.keio.ac.jp/en/">Keio University</a>
-              (Kanagawa, Japan) <br>
+              We developed a GAN-based stem that remove dynamic objects in images. The system can be trained without
+              using
+              paired images with/without the dynamic objects.
             </p>
           </td>
-        </tr>
-      </tbody>
-    </table>
+        </tbody>
+      </table>
 
-    <table
-      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-      <tbody>
-        <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Awards & Grants</heading>
-            <p>
+      <table
+        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Education & Experience</heading>
+              <p>
+                <b>[Sep 2025 - Feb 2026]</b> Internship, <a href="https://research.google/">Google</a> (Zurich,
+                Switzerland)<br>
+                <b>[Sep 2022 - Present]</b> Ph.D. student, <a
+                  href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">Max Planck
+                  Institute for Informatics</a> (Saarbrucken, Germany)<br>
+                <b>[July 2021 - Aug 2022]</b> Visiting researcher, <a
+                  href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">Max Planck
+                  Institute for Informatics</a> (Saarbrucken, Germany)<br>
+                <b>[Apr 2018 - Aug 2022]</b> Master student, <a href="https://www.st.keio.ac.jp/en/">Keio University</a>
+                (Kanagawa, Japan) <br>
+                <b>[Sep 2020 - June 2021]</b> Internship, <a href="https://www.kaust.edu.sa/en">KAUST</a> (Saudi
+                Arabia, remote) <br>
+                <b>[July 2019 - Aug 2019]</b> Internship, <a href="https://www.tencent.com/">Tencent </a> (Palo
+                Alto, CA, USA) <br>
+                <b>[Aug 2018 - May 2019]</b> Student, <a href="https://haas.berkeley.edu/">University of California,
+                  Berkeley</a>
+                (Berkeley, CA, USA) <br>
+                <b>[Apr 2014 - Mar 2018]</b> Bachelor student, <a href="https://www.st.keio.ac.jp/en/">Keio
+                  University</a>
+                (Kanagawa, Japan) <br>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-            <ul>
-              <li>
-                Nakajima Foundation (中島記念国際交流財団), 2022-2027<br>
-                <b style="color:red">Scholarship for my PhD study for 5 years</b>, including tuition fees, living
-                expenses, stipends, etc.
-              </li>
-              <li>
-                CREST, Japan Science and Technology Agency, 2021-2022<br>
-                Financial support for my research outside of Japan for 1 year.
-              </li>
-              <li>
-                TOBITATE, Ministry of Education, Culture, Sports, Science and Technology, Japan 2018-2019<br>
-                Scholarship for my study outside of Japan for 1 year.
-              </li>
-            </ul>
-            </p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+      <table
+        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Awards & Grants</heading>
+              <p>
 
-    <table
-      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-      <tbody>
-        <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Professional Services & Activities</heading>
-            <!-- <p>
+              <ul>
+                <li>
+                  Nakajima Foundation (中島記念国際交流財団), 2022-2027<br>
+                  <b style="color:red">Scholarship for my PhD study for 5 years</b>, including tuition fees, living
+                  expenses, stipends, etc.
+                </li>
+                <li>
+                  CREST, Japan Science and Technology Agency, 2021-2022<br>
+                  Financial support for my research outside of Japan for 1 year.
+                </li>
+                <li>
+                  TOBITATE, Ministry of Education, Culture, Sports, Science and Technology, Japan 2018-2019<br>
+                  Scholarship for my study outside of Japan for 1 year.
+                </li>
+              </ul>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <table
+        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Professional Services & Activities</heading>
+              <!-- <p>
                 <b>Reviewers:</b>
                 <ul>
                   <li> European Conference on Computer Vision: ECCV2022</li>
                 </ul>
               </p> -->
 
-            <p>
-              <b>Lab Visits:</b>
-            <ul>
-              <!-- &emsp;- 2022: <br> -->
-              <li>2021-2022: Prof. <a
-                  href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">Christian
-                  Theobalt</a> @MPI-INF</li>
-              <li>2020-2021: Prof. <a href="https://peterwonka.net/">Peter Wonka</a> @KAUST</li>
-            </ul>
-            </p>
+              <p>
+                <b>Lab Visits:</b>
+              <ul>
+                <!-- &emsp;- 2022: <br> -->
+                <li>2021-2022: Prof. <a
+                    href="https://www.mpi-inf.mpg.de/departments/visual-computing-and-artificial-intelligence">Christian
+                    Theobalt</a> @MPI-INF</li>
+                <li>2020-2021: Prof. <a href="https://peterwonka.net/">Peter Wonka</a> @KAUST</li>
+              </ul>
+              </p>
 
-            <br>
+              <br>
 
-            <p>
-              <b>Conference Participation:</b> <br>
-            <ul>
-              <li>SIGGRAPH ASIA 2026 (Kuala Lumpur, Malaysia) planned</li>
-              <li>CVPR 2026 (Denver, USA)</li>
-              <li>ICCV 2025 (Hawaii, USA)</li>
-              <li>CVPR 2024 (Seattle, USA)</li>
-              <li>ECCV 2022 (Tel Aviv, Israel)</li>
-              <li>WACV 2022 (Hawaii, USA)</li>
-              <li>IAS (Singapore, online due to COVID)</li>
-            </ul>
+              <p>
+                <b>Conference Participation:</b> <br>
+              <ul>
+                <li>SIGGRAPH ASIA 2026 (Kuala Lumpur, Malaysia) planned</li>
+                <li>CVPR 2026 (Denver, USA)</li>
+                <li>ICCV 2025 (Hawaii, USA)</li>
+                <li>CVPR 2024 (Seattle, USA)</li>
+                <li>ECCV 2022 (Tel Aviv, Israel)</li>
+                <li>WACV 2022 (Hawaii, USA)</li>
+                <li>IAS (Singapore, online due to COVID)</li>
+              </ul>
 
-            <br>
+              <br>
 
-            </p>
-            <p>
-              <b>Reviewer Experience:</b> <br>
-            <ul>
-              <li>SIGGRAPH ASIA 2026</li>
-              <li>ECCV 2026</li>
-              <li>CVPR 2026</li>
-              <li>ICCV 2025</li>
-              <li>NeurIPS 2025</li>
-              <li>ICCV 2025</li>
-              <li>CVPR 2025 (<b style="color:red">Outstanding Reviewer</b>)</li>
-              <li>WACV 2025</li>
-              <li>CVPR 2024</li>
-              <li>WACV 2024</li>
-            </ul>
-            </p>
+              </p>
+              <p>
+                <b>Reviewer Experience:</b> <br>
+              <ul>
+                <li>SIGGRAPH ASIA 2026</li>
+                <li>ECCV 2026</li>
+                <li>CVPR 2026</li>
+                <li>ICCV 2025</li>
+                <li>NeurIPS 2025</li>
+                <li>ICCV 2025</li>
+                <li>CVPR 2025 (<b style="color:red">Outstanding Reviewer</b>)</li>
+                <li>WACV 2025</li>
+                <li>CVPR 2024</li>
+                <li>WACV 2024</li>
+              </ul>
+              </p>
 
 
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <table
-      style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-      <tbody>
-        <tr>
-          <td style="padding:0px">
-            <br>
-            <!-- <p
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <table
+        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <!-- <p
                       style="text-align:center;font-size:small;">
                       <script type='text/javascript'
                         id='clustrmaps'
                         src='//cdn.clustrmaps.com/map_v2.js?cl=c9c1c1&w=200&t=n&d=j0j_3rEh4HCvS5DIxlRJ3P9J8yp0mtUeDLZ6Z6I2NJ8&co=ffffff&cmo=ea8d7a&cmn=1772d0&ct=000000'></script>
                     </p> -->
-            <p style="text-align:right;font-size:small;">
-              © Hiroyasu Akada 2022 /
-              Design: <a href="https://github.com/jonbarron/jonbarron_website">jonbarron</a>
-              Icons: <a href="https://www.flaticon.com/free-icons/sushi" title="sushi icons">Freepik - Flaticon</a>
-            </p>
-          </td>
-        </tr>
-      </tbody>
-    </table>
-    <!-- <script>
+              <p style="text-align:right;font-size:small;">
+                © Hiroyasu Akada 2022 /
+                Design: <a href="https://github.com/jonbarron/jonbarron_website">jonbarron</a>
+                Icons: <a href="https://www.flaticon.com/free-icons/sushi" title="sushi icons">Freepik - Flaticon</a>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- <script>
             (function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
                 i[r] = i[r] || function() {
